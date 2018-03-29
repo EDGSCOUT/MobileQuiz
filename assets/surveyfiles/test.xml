@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE questionnaire SYSTEM "Questionnaire.dtd">
+
+<questionnaire>
+  <description>
+    <identifier>BasicInfo_Phone</identifier>
+    <caption>个人基本情况调查</caption>
+    <information><![CDATA[   欢迎您填写本问卷，本问卷用来标注您的基本信息，问卷所有内容我们都将严格保密，请您放心填写。]]>
+	</information>
+   
+  </description>
+  
+
+  <questions>
+	<question qid="sex">
+      <title>您的性别：</title>
+      <answer aid="m" score="0">男性</answer>
+      <answer aid="f" score="1">女性</answer>
+    </question>
+  
+    <question qid="age" type="text">
+		<title>您的年龄(请填写数字，例如25；请真实填写，此题目将作为甄别填写是否有效的信息)：</title>
+    </question>
+	
+
+    
+
+  </questions>
+
+
+  <remarks>
+    <remark minScore="min" maxScore="max">非常感谢您填写我们的问卷！</remark>
+  </remarks>
+
+</questionnaire>
